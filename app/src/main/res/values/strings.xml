@@ -8,4 +8,5 @@
 
     <string name="action_sign_in">Iniciar Sesión</string>
     <string name="action_register">Guardar</string>
+    <string name="empty">No se encontraron datos</string>
 </resources>

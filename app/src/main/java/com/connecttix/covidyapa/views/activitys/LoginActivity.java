@@ -145,11 +145,11 @@ public class LoginActivity extends AppCompatActivity {
 
         @Override
         protected String doInBackground(Boolean... booleans) {
-            ProductModel productModel1 = new ProductModel(1,"Ace","producto de limpieza",39,"aseo");
-            ProductModel productModel2 = new ProductModel(1,"Leche","Gloria",46,"primer neces");
-            ProductModel productModel3 = new ProductModel(1,"Atun","gloria",28,"primera nececisad");
-            ProductModel productModel4 = new ProductModel(1,"Cafe","producto con cafeina",39,"primera neceidad");
-            ProductModel productModel5 = new ProductModel(1,"Pollo"," comida de carne",46,"aseo");
+            ProductModel productModel1 = new ProductModel(1,1,"Ace","2.0","producto de limpieza",39,"aseo");
+            ProductModel productModel2 = new ProductModel(1,2,"Leche","4.0","Gloria",46,"primer neces");
+            ProductModel productModel3 = new ProductModel(1,1,"Atun","5,6","gloria",28,"primera nececisad");
+            ProductModel productModel4 = new ProductModel(1,1,"Cafe","2.5","producto con cafeina",39,"primera neceidad");
+            ProductModel productModel5 = new ProductModel(1,2,"Pollo","1.5"," comida de carne",46,"aseo");
 
             SqliteClass.getInstance(context).databasehelp.productSql.addProduct(productModel1);
             SqliteClass.getInstance(context).databasehelp.productSql.addProduct(productModel2);
@@ -157,9 +157,9 @@ public class LoginActivity extends AppCompatActivity {
             SqliteClass.getInstance(context).databasehelp.productSql.addProduct(productModel4);
             SqliteClass.getInstance(context).databasehelp.productSql.addProduct(productModel5);
 
-            TiendaModel tiendaModel1 = new TiendaModel(1,"La tienda de donde pepe","234567898","pepe@comercienta.com","abarrote");
-            TiendaModel tiendaModel2 = new TiendaModel(1,"Mas barato","123456789","varato@gmail.com","abarrote");
-            TiendaModel tiendaModel3 = new TiendaModel(1,"Tarro","34683565","josemercante@comercienta.com","abarrote");
+            TiendaModel tiendaModel1 = new TiendaModel(1,"La tienda de donde pepe","-16.3993824","-71.5361107","Calle Peral 604","234567898","pepe@comercienta.com","abarrote");
+            TiendaModel tiendaModel2 = new TiendaModel(1,"Mas barato","-16.395392","-71.5329935","Calle Puente Grau","123456789","varato@gmail.com","abarrote");
+            TiendaModel tiendaModel3 = new TiendaModel(1,"Tarro","-16.4047533","-71.5244729","Calle Mercaderes","34683565","josemercante@comercienta.com","abarrote");
 
             SqliteClass.getInstance(context).databasehelp.storeSql.addStore(tiendaModel1);
             SqliteClass.getInstance(context).databasehelp.storeSql.addStore(tiendaModel2);
