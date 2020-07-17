@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">CovidYapa</string>
+    <string name="action_sign_up">Registrarse</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_password_confirm">Confirme Contraseña</string>
+    <string name="prompt_user">Usuario</string>
+    <string name="action_loading">Cargando</string>
+
+    <string name="action_sign_in">Iniciar Sesión</string>
+    <string name="action_register">Guardar</string>
 </resources>
